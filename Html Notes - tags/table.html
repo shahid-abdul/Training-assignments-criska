@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Table Example</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 60%;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th rowspan="2">ID</th>
+        <th colspan="2">Name</th>
+        <th rowspan="2">Age</th>
+      </tr>
+      <tr>
+        <th>First</th>
+        <th>Last</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jane</td>
+        <td>Smith</td>
+        <td>30</td>
+      </tr>
+    </table>
+  </body>
+</html>

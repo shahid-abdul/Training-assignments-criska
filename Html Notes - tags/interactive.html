@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Interactive Tags Example</title>
+  </head>
+  <body>
+    <!-- Details & Summary -->
+    <details>
+      <summary>Click to expand</summary>
+      <p>This is hidden content revealed when you click.</p>
+    </details>
+
+    <details open>
+      <summary>Always open by default</summary>
+      <p>This details section is expanded on load.</p>
+    </details>
+
+    <!-- Dialog -->
+    <button onclick="document.getElementById('myDialog').showModal()">
+      Open Dialog
+    </button>
+    <dialog id="myDialog">
+      <p>This is a modal dialog box.</p>
+      <button onclick="document.getElementById('myDialog').close()">
+        Close
+      </button>
+    </dialog>
+  </body>
+</html>
