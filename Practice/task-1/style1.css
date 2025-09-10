@@ -1,0 +1,104 @@
+.overall {
+  box-sizing: inherit;
+  max-width: 100%;
+}
+
+.part1 {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  font-size: 24px;
+  font-family: "Times New Roman", Georgia, Serif;
+  letter-spacing: 4px;
+}
+
+.right {
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.part2 {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+#abd-catering {
+  position: absolute;
+  top: 94%;
+  left: 20px;
+  letter-spacing: 3px;
+}
+
+.part3 {
+  display: flex;
+}
+
+.about-img {
+  padding: 50px 20px 50px 100px;
+}
+
+.about-content {
+  padding: 20px 100px 10px 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+#about {
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#sub {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+#para-1 {
+  align-items: justify;
+}
+
+#para-2 {
+  align-items: justify;
+  color: #757575;
+}
+
+.part-4 {
+  display: flex;
+  padding: 100px 50px 100px 100px;
+}
+
+.about-menu {
+  text-align: center;
+  padding-right: 100px;
+}
+
+.menu {
+  font-size: 36px;
+  font-family: "Playfair Display";
+}
+
+.menu-types {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.menu-des {
+  font-size: 18px;
+  font-family: "Times New Roman", Georgia, Serif;
+  color: #757575;
+}
+
+.menu-img {
+  padding-left: 170px;
+}
+
+.part-5 {
+  padding: 50px 100px 100px 100px;
+}
+
+.Contact {
+  font-size: 36px;
+  letter-spacing: 3px;
+}
