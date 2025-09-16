@@ -77,3 +77,48 @@ console.log();
 // }
 
 // greetUser("John");
+
+console.log();
+// let normalNum = 9007199254740991n; // max safe integer
+// console.log(normalNum + 1n);
+// console.log(normalNum + 2n);
+// console.log(normalNum + 3n);
+// console.log(normalNum + 4n);
+// console.log(normalNum + 5n);
+// console.log(normalNum + 6n);
+// console.log(normalNum + 7n);
+
+// let user = {
+//   name: "Alice",
+// };
+
+// Developer A adds an ID using Symbol
+// let id1 = Symbol("id");
+// user[id1] = 101;
+
+// // Developer B also adds an ID using Symbol
+// let id2 = Symbol("id");
+// user[id2] = "XYZ123";
+
+// console.log(user); // { name: "Alice" }
+// console.log(user[id1]); // 101
+// console.log(user[id2]); // "XYZ123"
+
+function greet() {
+  console.log("Hello!");
+}
+greet(); // Output: Hello!
+
+const greet = function () {
+  console.log("Hello!");
+};
+greet(); // Output: Hello!
+
+const greet = () => {
+  console.log("Hello!");
+};
+greet(); // Output: Hello!
+
+setTimeout(function () {
+  console.log("Runs after 2 seconds");
+}, 2000);
