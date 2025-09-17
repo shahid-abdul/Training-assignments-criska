@@ -59,6 +59,16 @@
 // } else {
 //   console.log(c + " is greater");
 // }
+// let a = 10,
+//   b = 20,
+//   c = 30;
+// if (a > b && a > c) {
+//   console.log(a);
+// } else if (b > c && b > a) {
+//   console.log(b);
+// } else {
+//   console.log(c);
+// }
 
 // //Factorial of the numbers.
 // let a = 5;
@@ -69,7 +79,7 @@
 // }
 // console.log("Factorial is " + b);
 
-//Power of given number.
+// // Power of given number.
 // let base = 2,
 //   power = 3;
 // console.log(base ** power);
@@ -91,8 +101,8 @@
 //   c = 30;
 // console.log(a, b);
 
-// //Find the duplicate characters in the String
-// //Find the unique characters in the string
+//Find the duplicate characters in the String
+//Find the unique characters in the string
 // function unique_duplicate(str1) {
 //   let str2 = "";
 //   let duplicate = "";
@@ -109,6 +119,23 @@
 // }
 // unique_duplicate("abdulshahid");
 
+// function duplicate(str) {
+//   let empty1 = "";
+//   let empty2 = "";
+//   for (let char of str) {
+//     if (!empty1.includes(char)) {
+//       empty1 += char;
+//     } else {
+//       empty2 += char;
+//     }
+//   }
+//   console.log(empty1);
+//   console.log(empty2);
+// }
+// duplicate("abdulshahid");
+
+//
+
 // //Is the given String being palindrome
 // function polindrome(a) {
 //   console.log(a);
@@ -124,6 +151,9 @@
 // }
 // polindrome("amma");
 
+let a = "abdul";
+b = a.substring(-1);
+console.log(b);
 // //Find even and add number in given range
 // let a = Number(prompt("Enter the range"));
 // let even = [];
